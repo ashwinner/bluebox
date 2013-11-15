@@ -1,0 +1,9 @@
+{
+    "name": "BlueBox", 
+    "license": "MPL 1.1/GPL 2.0/LGPL 2.1", 
+    "author": "Ashwin Lakshmanan", 
+    "version": "1.0", 
+    "fullName": "BlueBox Proxy", 
+    "id": "jid1-uB4sJEPvR2m4QQ", 
+    "description":"An extensions that helps you to surf websites through the BlueBox proxy" 
+}
