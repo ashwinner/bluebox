@@ -1,5 +1,1 @@
-This is the wallflower add-on.  It contains:
-
-* A program (lib/main.js).
-* A few tests.
-* Some meager documentation.
+This the bluebox proxy. Just right click on a link and select "open with bluebox" and voila!
